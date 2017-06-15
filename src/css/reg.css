@@ -1,0 +1,159 @@
+body {
+  background: #fff;
+}
+
+#reg {
+  height: 532px;
+  background: #ececec;
+  overflow: hidden;
+}
+
+#reg .reg-nei {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  margin: 25px auto;
+  margin-left: 130px;
+  /*float: left;*/
+}
+
+#reg .reg-nei .reg-to {
+  width: 100%;
+  height: 60px;
+  background: yellow;
+}
+
+#reg .reg-nei .reg-to .reg1 {
+  float: left;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  width: 50%;
+  background: #FF5c00;
+}
+
+#reg .reg-nei .reg-to .reg2 {
+  float: left;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: #FF5c00;
+  width: 50%;
+  background: #fff;
+}
+
+#reg .reg-nei .yonghu {
+  position: relative;
+  margin-left: 50px;
+}
+
+#reg .reg-nei .yonghu input {
+  margin-top: 30px;
+  width: 400px;
+  height: 30px;
+  outline: none;
+}
+
+#reg .reg-nei .yonghu .user .yao1 {
+  display: block;
+  margin-left: 70px;
+  margin-top: 5px;
+  display: none;
+  color: green;
+}
+
+#reg .reg-nei .yonghu .pars .yao2 {
+  display: block;
+  margin-top: 5px;
+  display: none;
+  margin-left: 70px;
+  color: green;
+}
+
+#reg .reg-nei .yonghu .pars .qiang {
+  display: none;
+}
+
+#reg .reg-nei .yonghu .pars p {
+  margin-top: 20px;
+  width: 261px;
+  height: 24px;
+  margin-left: 100px;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+}
+
+#reg .reg-nei .yonghu .pars p span {
+  border-radius: 10px;
+}
+
+#reg .reg-nei .yonghu .pars p > b {
+  position: absolute;
+  left: -60px;
+  top: 0px;
+}
+
+#reg .reg-nei .yonghu .pars p :nth-child(2) {
+  width: 80px;
+  float: left;
+  height: 20px;
+  border: 1px solid #ccc;
+}
+
+#reg .reg-nei .yonghu .pars p :nth-child(3) {
+  display: block;
+  float: left;
+  width: 80px;
+  height: 20px;
+  border: 1px solid #ccc;
+  margin: 0;
+}
+
+#reg .reg-nei .yonghu .pars p :nth-child(4) {
+  float: left;
+  display: block;
+  width: 80px;
+  height: 20px;
+  border: 1px solid #ccc;
+}
+
+#reg .reg-nei .yonghu #btnReg {
+  margin-left: 120px;
+  top: 100px;
+  background-color: #FF5c00;
+  font-size: 16px;
+  color: #FFF;
+  border: 0;
+  height: 40px;
+  width: 200px;
+  line-height: 32px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+#reg .reg-nei .reg-img {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: absolute;
+  top: 40px;
+  right: 280px;
+}
+
+#reg .hezuo {
+  margin-top: 20px;
+  margin-left: 170px;
+}
+
+#reg .hezuo > a {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}

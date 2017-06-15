@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>列表页</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/list.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <script src="../js/require.js" data-main="../js/list"></script>
+</head>
+
+<body>
+    <div id="contarner">
+        <div id="header-top">
+            <ul class="header-left">
+                <li><a href="http://localhost/myproject/src/html/index.html">母婴之家</a></li>
+                <li><a href="http://localhost/myproject/src/html/index.html">母婴海淘</a></li>
+                <li><a href="#">手机版</a></li>
+            </ul>
+            <ul class="header-right">
+                <span>欢迎来到母婴之家！</span>
+                <li id="msg">
+                    <a href="http://localhost/myproject/src/html/login.html" class="enter color"> [登录]</a>
+                    <a href="http://localhost/myproject/src/html/reg.html" class="register color"> [免费注册]</a>
+                </li>
+                <li><a href="#">分类导航</a></li>
+                <li><a href="#">商业合作</a></li>
+                <li class="list2"><a href="#">客户服务</a>
+                    <div class="header-right-list2">
+                        <a href="#">在线客服</a>
+                        <br>
+                        <a href="#">帮助中心</a>
+                        <br>
+                    </div>
+                </li>
+                <li class="list1"><a href="#">我的订单</a>
+                    <b></b>
+                    <div class="header-right-list1">
+                        <a href="#">我的家</a>
+                        <br>
+                        <a href="#">我的提问</a>
+                        <br>
+                        <a href="#">我的评论</a>
+                        <br>
+                        <a href="#">我的收藏</a>
+                        <br>
+                        <a href="#">我的幸运星</a>
+                        <br>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="header-top-bar">
+            <div class="header-logo">
+                <a href="http://localhost/myproject/src/html/index.html" target="_blank">
+                    <img src="../img/母婴之家-让宝宝过得更好_files/logo29new.png" alt="母婴之家首页">
+                </a>
+            </div>
+            <div class="header-ad">
+                <a style="cursor:default">
+                    <div class="zheng"></div>
+                    <p>全球精选正品</p>
+                </a>
+                <a style="cursor:default">
+                    <div class="jian"></div>
+                    <p>白领妈妈推荐</p>
+                </a>
+                <a style="cursor:default">
+                    <div class="qi"></div>
+                    <p>专注母婴9年</p>
+                </a>
+            </div>
+            <div class="search fl">
+                <form action="/goods/index/" method="get" name="searchform" id="searchform" class="seachinfo">
+                    <div class="search_icon fl"></div>
+                    <input type="text" name="keywords" id="keywords" value class="fl" autocomplete="off" placeholder="搜索 母婴之家 商品/品牌" style="height: 40px;">
+                    <input type="submit" name="search_btn" id="search_btn" value="搜索">
+                </form>
+                <div class="hot">
+                    <ul>
+                        <li>热门搜索：</li>
+                        <li>
+                            <a href="#" target="_blank">澳洲直邮</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">美德乐</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">保温杯</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">推车</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">美德乐 </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">钙铁锌</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 导航栏 -->
+        <div class="header-nav">
+            <div class="header-nav-bar">
+                <div class="header-silder-nav">
+                    <a href="" class="goods">全部商品分类
+                    <i></i>
+                    </a>
+                    <div class="nav-goods">
+                        <ul>
+                            <li><a href="">妈妈专区
+                                <i class="tu7  a"></i>
+
+                            </a></li>
+                            <li><a href=""> 哺乳喂养
+                                <i class="tu1 a"></i>
+                            </a></li>
+                            <li><a href="">奶粉辅食
+                                <i class="tu2 a"></i>
+                                
+                            </a></li>
+                            <li><a href="">纸尿裤湿巾
+                                <i class="tu3 a"></i>
+
+
+                            </a></li>
+                            <li><a href="">洗护用品
+                                <i class="tu4 a"></i>
+
+
+                            </a></li>
+                            <li><a href="">宝宝服饰
+
+                                <i class="tu5 a"></i>
+                            </a></li>
+                            <li><a href="">童车座椅
+
+                                <i class="tu6 a"></i>
+
+                            </a></li>
+                            <li><a href="">玩具
+                                <i class="tu8 a"></i>
+                            </a></li>
+                            <li><a href="">床椅寝具
+
+                                <i class="tu9 a"></i>
+
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="header-nav-bar-list">
+                    <li class="act"><a href="http://localhost/myproject/src/html/index.html">首页</a></li>
+                    <li><a href="">幸运星期一</a></li>
+                    <li class="bar-list"><a href="">直邮专区</a>
+                        <ul class="bar-lists">
+                            <li>欧洲直邮</li>
+                        </ul>
+                    </li>
+                    <li><a href="">品牌专栏</a></li>
+                    <li><a href="">会员俱乐部</a></li>
+                </ul>
+            </div>
+            <div class="header-nav-line">
+            </div>
+        </div>
+        <div class="ban">
+            <img src="../img/p1.jpg" alt="">
+        </div>
+        <div class="goodslist clearfix" style="overflow: hidden;">
+        </div>
+        <nav aria-label="Page navigation" style="text-align: center;">
+            <ul class="pagination" >
+            </ul>
+        </nav>
+        <!-- //吸顶 -->
+        <div class="top">
+            <div class="xi">
+                <img src="../img/母婴之家-让宝宝过得更好_files/logo29new.png" alt="">
+            </div>
+            <ul class="top-list">
+                <li class="act"><a href="http://localhost/myproject/src/html/index.html">首页</a></li>
+                <li><a href="">幸运星期一</a></li>
+                <li class="bar-list"><a href="">直邮专区</a>
+                </li>
+                <li><a href="">品牌专栏</a></li>
+                <li><a href="">会员俱乐部</a></li>
+            </ul>
+        </div>
+        <div id="footer">
+            <div class="footer">
+                <a href="http://t.muyingzhijia.com/">首页</a><span>|</span> <a target="_blank" href="http://www.muyingzhijia.com/Brand">
+              公司简介</a><span>|</span> <a href="">
+                                         我的品牌专区</a><span>|</span> <a href="http://b.t.muyingzhijia.com">商家中心</a><span>|</span>
+                <a target="_blank" href="">关于我们</a><span>|</span> <a target="_blank" href="">
+              人才招聘</a><span>|</span> <a target="_blank" href="">
+                  联系我们</a><span>|</span> <a target="_blank" href="/HelpCenter/HelpCenter">帮助中心</a><span>|</span>
+                <a target="_blank" href="http://app.muyingzhijia.com/">手机客户端</a><span>|</span> <a target="_blank" href="">
+              客服在线</a><span>|</span><a target="_blank" href="">品牌专区售后政策</a>
+            </div>
+            <p>
+                Copyright©2003 - 2016 muyingzhijia.com All Rights Reserved沪ICP备09021709号</p>
+            <a href="javascript:void(0)" class="botton-tu">
+                <img src="http://static.boodoll.cn/temai/v1/images/shanghai_industry.gif"></a>
+        </div>
+        <!--     <div class="show">
+            <input type="submit" name="search_btn" id="btn" value="购物车">
+                </div> -->
+        <div class="right">
+            <div class="icon1">
+                <i></i>
+                <a href="http://localhost/myproject/src/html/reg.html">注册</a>
+                <a href="http://localhost/myproject/src/html/login.html">登录</a>
+            </div>
+            <div class="icon2">
+                <i></i>
+                <a href="http://localhost/myproject/src/html/gwc.html">购物车</a> (
+                <input type="text" value="0" class="gwc">)
+            </div>
+            <div class="icon3">
+                <i></i>
+                <a href="">客服服务</a>
+            </div>
+            <div class="icon4">
+                <i></i>
+                <span>返回顶部</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/*.carousel{position:relative;width:1090px;height:350px;overflow: hidden;margin: 0 auto}
+		.carousel ul{position:absolute;width:3340px;overflow:hidden;}
+		.carousel li{float:left;text-align: center;
+		}
+		.carousel img{display: block;}
+
+		.carousel .page{position: absolute;left:50%;bottom:10px;margin-left:-100px;width:200px;text-align:center;}
+		.carousel .page span{display: inline-block;margin:0 5px;width:10px;height:10px;border:2px solid rgba(255,255,255,0.5);overflow:hidden;background-color: #fff;border-radius: 50%;text-indent:-2000em;box-shadow: 0 0 5px rgba(0,0,0,0.5)}
+		.carousel .page span.active{background-color: #f00;}
+*/
+.banner {
+  position: relative;
+  overflow: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner li {
+  list-style: none;
+}
+
+.banner ul li {
+  float: left;
+}
+
+#ba {
+  width: 650px;
+}
+
+#ba .dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+}
+
+#ba .dots li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  text-indent: -999em;
+  border: 2px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: .4;
+  -webkit-transition: background .5s, opacity .5s;
+  -moz-transition: background .5s, opacity .5s;
+  transition: background .5s, opacity .5s;
+}
+
+#ba .dots li.active {
+  background: #fff;
+  opacity: 1;
+}
+
+#ba .arrow {
+  position: absolute;
+  top: 40%;
+  width: 30px;
+  height: 50px;
+  background: black;
+  line-height: 50px;
+  color: #fff;
+  opacity: 0.5;
+  font-size: 30px;
+}
+
+#ba #al {
+  left: 0;
+}
+
+#ba #ar {
+  right: 0;
+}
+
+/*内容*/
+.site-floor-dt-fl {
+  margin: 20px 0 10px;
+}
+
+.site-floor-dt-fl .titleImg {
+  display: block;
+}
+
+.site-floor-dt-fl .titleImg img {
+  margin: 0 auto;
+}
+
+#neirong {
+  /*height: 1000px;*/
+  width: 100%;
+  margin: 0 auto;
+  background: #E9E9E9;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#neirong .nei-quan {
+  width: 1088px;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  height: 300px;
+  /*border: 1px solid red;*/
+}
+
+#neirong .nei-quan .nei-tu img {
+  width: 600px;
+  float: left;
+  display: block;
+  border-radius: 10px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#neirong .nei-wen {
+  float: left;
+  margin: 10px 10px 10px 20px;
+  position: relative;
+  width: 458px;
+}
+
+#neirong .nei-wen h2 {
+  padding-top: 5px;
+  height: 32px;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "微软雅黑";
+  color: #666;
+}
+
+#neirong .nei-wen .xiang {
+  padding-top: 8px;
+  line-height: 24px;
+  font-size: 15px;
+  font-family: "微软雅黑";
+  color: #666;
+  margin-bottom: 6px;
+  height: 70px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#neirong .nei-wen .price {
+  color: #df2943;
+  font-family: "微软雅黑";
+  font-size: 20px;
+  line-height: 40px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#neirong .nei-wen .btn {
+  position: absolute;
+  right: 0px;
+  border-radius: 200px;
+  background-color: #ff5c00;
+  font-family: "微软雅黑";
+  font-size: 17px;
+  color: #fff;
+  height: 33px;
+  display: block;
+  height: 44px;
+  width: 44px;
+  text-align: center;
+  line-height: 21px;
+  padding: 8px;
+  font-weight: bold;
+}

@@ -1,0 +1,111 @@
+body{
+	background: #fff;
+}
+#reg{
+	height: 532px;
+	background: #ececec;
+	overflow: hidden;
+	.reg-nei{
+
+		width: 1000px;
+		height: 480px;
+		background: #fff;
+		margin: 25px auto;
+		margin-left: 130px;
+		/*float: left;*/
+		.reg-to{
+
+			width: 100%;
+			height: 60px;
+			background: yellow;
+			.reg1{
+				float: left;
+				display: block;
+				height: 60px;
+				line-height: 60px;
+				text-align: center;
+				font-size: 30px;
+				color:#FF5c00;
+				width: 50%;
+				background: #fff;
+			}
+			.reg2{
+				float: left;
+				display: block;
+				height: 60px;
+				line-height: 60px;
+				text-align: center;
+				font-size: 30px;
+				color:#FFf;
+				width: 50%;
+				background: #FF5c00;
+			}
+		}
+		.yonghu{
+			position: relative;
+			margin-left: 50px;
+
+			#username{
+				margin-top: 50px;
+				width: 400px;
+				height: 30px;
+				outline:none;
+
+			}
+			#password{
+				margin-top: 50px;
+				width: 400px;
+				height: 30px;
+				outline:none;
+
+			}
+			.user{
+				.yao1{
+					display: block;
+					margin-left: 70px;
+					margin-top: 5px;
+					display: none;
+					color: red;
+					
+				}
+			}
+		    .pars{
+				.yao2{
+					display: block;
+					margin-top: 5px;
+					display: none;
+					margin-left: 70px;
+					color: red;
+
+
+				}
+			}
+			#btnReg{
+			margin-left: 120px;
+
+					margin-top: 90px;
+				    top: 100px;
+				    background-color: #FF5c00;
+				    font-size: 16px;
+				    color: #FFF;
+				    border: 0;
+				    height: 40px;
+				    width: 200px;
+				    line-height: 32px;
+				    cursor: pointer;
+				    border: none;
+					outline:none;
+
+			}
+		}
+		.reg-img{
+			width: 100px;
+			height: 100px;
+			background: red;
+			position: absolute;
+			top: 40px;
+			right: 280px;
+
+		}
+	}
+}

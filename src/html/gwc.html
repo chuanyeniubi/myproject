@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/gwc.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="../js/require.js" data-main="../js/gwc"></script>
+</head>
+
+<body>
+    <div id="contarner" style="background: #fff">
+    <div class="icon1" style="display: none;"></div>
+        <div id="header-top">
+            <ul class="header-left">
+                <li><a href="http://localhost/myproject/src/html/index.html">母婴之家</a></li>
+                <li><a href="http://localhost/myproject/src/html/index.html">母婴海淘</a></li>
+                <li><a href="#">手机版</a></li>
+            </ul>
+            <ul class="header-right">
+                <span>欢迎来到母婴之家！</span>
+                <li id="msg">
+                    <a href="http://localhost/myproject/src/html/login.html" class="enter color"> [登录]</a>
+                    <a href="http://localhost/myproject/src/html/reg.html" class="register color"> [免费注册]</a>
+                </li>
+                <li><a href="#">分类导航</a></li>
+                <li><a href="#">商业合作</a></li>
+                <li class="list2"><a href="#">客户服务</a>
+                    <div class="header-right-list2">
+                        <a href="#">在线客服</a>
+                        <br>
+                        <a href="#">帮助中心</a>
+                        <br>
+                    </div>
+                </li>
+                <li class="list1"><a href="#">我的订单</a>
+                    <b></b>
+                    <div class="header-right-list1">
+                        <a href="#">我的家</a>
+                        <br>
+                        <a href="#">我的提问</a>
+                        <br>
+                        <a href="#">我的评论</a>
+                        <br>
+                        <a href="#">我的收藏</a>
+                        <br>
+                        <a href="#">我的幸运星</a>
+                        <br>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="header-top-bar">
+            <div class="header-logo">
+                <a href="#" target="_blank">
+                    <img src="../img/母婴之家-让宝宝过得更好_files/logo29new.png" alt="母婴之家首页">
+                </a>
+            </div>
+        </div>
+        <!-- 内容 -->
+        <div class="search-warp">
+            <div class="search">
+                <span></span>
+            </div>
+        </div>
+        <div class="catTab">
+            <div class="tab-title fl">
+                购物袋
+            </div>
+            <a class="cart_get" href="" target="_blank">领红包，享优惠 &gt;&gt;</a>
+        </div>
+        <div class="cattop-warp">
+            <ul class="cattop">
+                <li class="mbshop_cart_1127_01">
+                    <label class="mbshop_checkbox">
+                        <input name="checkAll" storetype="" checked="true" type="checkbox" id="all">
+                        <b>全选</b>
+                    </label>
+                </li>
+                <li class="mbshop_cart_1127_02">商品信息</li>
+                <li class="mbshop_cart_1127_03">颜色尺码</li>
+                <li class="mbshop_cart_1127_04">单价(元)</li>
+                <li class="mbshop_cart_1127_05">数量</li>
+                <!-- <li class="mbshop_cart_1127_07">小计</li> -->
+                <li class="mbshop_cart_1127_09">操作</li>
+            </ul>
+            <div class="goods-box">
+                <div class="goodslist">
+                    <!--        <ul class="catGoods">
+                        <li><input name="checkAll" storetype="HQ01S116" type="checkbox" checked="true">
+
+                            </label>
+                        </li>
+                        <li>
+                            <dl> <dt><a href=""><img src="" alt="" style="display: block;"></a></dt>
+                                <dd>
+                                    <a href="">
+                                        <p title="【初春推荐】女棒球梭织褛（支持14天退换）"></p>
+                                    </a>
+                                    <div class="cart_b"> <b class="icon_grey"><i class="iconfont">         <img style="float:left" src="http://s.banggo.com/pub7/images/mbshop/common/14tui.png"></i>该商品支持14天退换货</b> </div>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <p>尺码：(S:155/80A)</p>
+                        </li>
+                        <li><i></i><em></em></li>
+                        <li><span class="addgoods">+</span>
+                            <input type="text" value="1">
+                            <span class="removegoods">-</span>
+                        </li>
+                        <li></li>
+                        <li>
+                            <a href="" class="remove">删除</a>
+                        </li>
+                    </ul> -->
+                    <!-- <ul class="catGoods">
+                
+                    </ul> -->
+                </div>
+            </div>
+            <div class="goodsbalance-warp">
+                <div class="goodsbalance">
+                    <div class="goodsbalance-left">
+                        <!--    <label class="mbshop_checkbox fl">      <input name="checkAll" storetype="" type="checkbox" checked="true">                  <b>全选</b>     </label> -->
+                        <p id="deleteCheckbox" class="balance_left_del">清空购物车</p>
+                        <p class="balance_left_total">合计(不含运费)：<i></i></p>
+                        <p class="balance_left_alg">
+                            <a href="http://localhost/myproject/src/html/list.html">
+                                <--继续购物</a>&nbsp;&nbsp;商品总价<i></i> - 优惠<em>￥0</em></p>
+                        <!-- <p class="balance_left_have">已选商品<em>0</em>件</p> -->
+                    </div>
+                    <a href="javascript:void(0);" class="go_to_balance_right mbshop_cartPayBill go_to_balance_right_on">去结算</a>
+                </div>
+            </div>
+        </div>
+        <!-- 底部 -->
+        <div id="footer" style="border: none;">
+            <div class="footer_info">
+                <div class="wrap">
+                    <div class="supuy_info">
+                        <ul>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpAboutUs" target="_blank">关于我们</a>
+                            </li>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpJoinUs" target="_blank">人才招聘</a>
+                            </li>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpContactUs" target="_blank">联系我们</a>
+                            </li>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpInvestmentIn" target="_blank" style="border:none;">招商合作</a>
+                            </li>
+                            <li>
+                                <a href="http://www.ysys520.com" target="_blank" style="border:none;">一生一世</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="supuy_set">
+                        Copyright ? 速普商城 2010-2016 All Right Reseved 鲁 ICP 证 09059644 号
+                    </div>
+                    <div class="zizhi">
+                        <span style="display:inline-block;position:relative;width:auto;"><a href="https://ss.knet.cn/verifyseal.dll?sn=e14041537020048086xzmw000000&amp;ct=df&amp;a=1&amp;pa=0.6623187007733611" id="kx_verify" tabindex="-1" target="_blank" kx_type="图标式" style="display:inline-block;">
+             <img src="http://rr.knet.cn/static/images/logo/cnnic.png" style="border:none;" oncontextmenu="return false;" alt="可信网站"></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

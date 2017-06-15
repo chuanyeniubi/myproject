@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>详情页</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../lib/jquery-gdszoom/jquery.gdszoom.css">
+    <script src="../js/require.js" data-main="../js/pages.js"></script>
+</head>
+
+<body>
+    <div id="contarner">
+        <div id="header-top">
+            <ul class="header-left">
+                <li><a href="http://localhost/myproject/src/html/index.html">母婴之家</a></li>
+                <li><a href="http://localhost/myproject/src/html/index.html">母婴海淘</a></li>
+                <li><a href="#">手机版</a></li>
+            </ul>
+            <ul class="header-right">
+                <span>欢迎来到母婴之家！</span>
+                <li id="msg">
+                    <a href="http://localhost/myproject/src/html/login.html" class="enter color"> [登录]</a>
+                    <a href="http://localhost/myproject/src/html/reg.html" class="register color"> [免费注册]</a>
+                </li>
+                <li><a href="#">分类导航</a></li>
+                <li><a href="#">商业合作</a></li>
+                <li class="list2"><a href="#">客户服务</a>
+                    <div class="header-right-list2">
+                        <a href="#">在线客服</a>
+                        <br>
+                        <a href="#">帮助中心</a>
+                        <br>
+                    </div>
+                </li>
+                <li class="list1"><a href="#">我的订单</a>
+                    <b></b>
+                    <div class="header-right-list1">
+                        <a href="#">我的家</a>
+                        <br>
+                        <a href="#">我的提问</a>
+                        <br>
+                        <a href="#">我的评论</a>
+                        <br>
+                        <a href="#">我的收藏</a>
+                        <br>
+                        <a href="#">我的幸运星</a>
+                        <br>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="header-top-bar">
+            <div class="header-logo">
+                <a href="#" target="_blank">
+                    <img src="../img/母婴之家-让宝宝过得更好_files/logo29new.png" alt="母婴之家首页">
+                </a>
+            </div>
+            <div class="header-ad">
+                <a style="cursor:default">
+                    <div class="zheng"></div>
+                    <p>全球精选正品</p>
+                </a>
+                <a style="cursor:default">
+                    <div class="jian"></div>
+                    <p>白领妈妈推荐</p>
+                </a>
+                <a style="cursor:default">
+                    <div class="qi"></div>
+                    <p>专注母婴9年</p>
+                </a>
+            </div>
+            <div class="search fl">
+                <form action="/goods/index/" method="get" name="searchform" id="searchform" class="seachinfo">
+                    <div class="search_icon fl"></div>
+                    <input type="text" name="keywords" id="keywords" value class="fl" autocomplete="off" placeholder="搜索 母婴之家 商品/品牌">
+                    <input type="submit" name="search_btn" id="search_btn" value="搜索">
+                </form>
+                <div class="hot">
+                    <ul>
+                        <li>热门搜索：</li>
+                        <li>
+                            <a href="#" target="_blank">澳洲直邮</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">美德乐</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">保温杯</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">推车</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">美德乐 </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">钙铁锌</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 导航栏 -->
+        <div class="header-nav">
+            <div class="header-nav-bar">
+                <div class="header-silder-nav">
+                    <a href="" class="goods">全部商品分类
+                    <i></i>
+                    </a>
+                    <div class="nav-goods">
+                        <ul>
+                            <li><a href="">妈妈专区
+                                <i class="tu7  a"></i>
+
+                            </a></li>
+                            <li><a href="">妈妈专区
+                                <i class="tu1 a"></i>
+                            </a></li>
+                            <li><a href="">妈妈专区
+                                <i class="tu2 a"></i>
+                                
+                            </a></li>
+                            <li><a href="">妈妈专区
+                                <i class="tu3 a"></i>
+
+
+                            </a></li>
+                            <li><a href="">妈妈专区
+                                <i class="tu4 a"></i>
+
+
+                            </a></li>
+                            <li><a href="">妈妈专区
+
+                                <i class="tu5 a"></i>
+                            </a></li>
+                            <li><a href="">妈妈专区
+
+                                <i class="tu6 a"></i>
+
+                            </a></li>
+                            <li><a href="">妈妈专区
+                                <i class="tu8 a"></i>
+                            </a></li>
+                            <li><a href="">妈妈专区
+
+                                <i class="tu9 a"></i>
+
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="header-nav-bar-list">
+                    <li class="act"><a href="http://localhost/myproject/src/index.html">首页</a></li>
+                    <li><a href="">幸运星期一</a></li>
+                    <li class="bar-list"><a href="">直邮专区</a>
+                        <ul class="bar-lists">
+                            <li>欧洲直邮</li>
+                        </ul>
+                    </li>
+                    <li><a href="">品牌专栏</a></li>
+                    <li><a href="">会员俱乐部</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 详情栏-->
+        <div id="pages">
+            <div class="pages-goods">
+                <div class="tou">
+                    <a href="">所有商品</a> >
+                    <a href="">内衣</a>
+                </div>
+            </div>
+            <!-- //详情购买 -->
+            <!-- <div class="pages-xiang" > -->
+            <!-- 放大镜 飞入 -->
+            <!--   <div class="goods-list">
+        <ul>
+            <li class="goods-img"><img src="../img/fangda/sm.jpg" data-big="../img/fangda/big.jpg">
+               
+            </li>
+            <li class="btn">
+               <p>
+                    <button>添加到购物车</button>
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    </div> -->
+            <!-- //真的详情购买 -->
+            <!--   <div class="goods-tu">
+          <div class="goods-tu-big">
+              <img src="../img/01.jpg" alt="">
+          </div>
+          <div class="goods-tu-sm">
+              <ul>
+                <li><img src="../img/01.jpg" alt=""></li>
+                <li><img src="../img/01.jpg" alt=""></li>
+                <li><img src="../img/01.jpg" alt=""></li>
+              </ul>
+          </div>
+      </div>
+
+      <div class="goods-xiang">
+          <div class="goods-tou">
+            <h3>十月妈咪棉弹可哺乳文胸灰色85C</h3>
+            <p>十月妈咪孕妇装特价</p>
+          </div>
+          <div class="goods-body">
+            <div class="goods-body-attr1">
+                <span>促销价</span>
+                <strong class="price">￥99.00</strong>
+            </div>
+            <div class="goods-body-attr2">
+                <span>规&nbsp;&nbsp;&nbsp;格</span>
+                <div class="bb">
+                  <ul class="size_num" id="size_num"><li><a data-type="spec" href="javascript:;" target="_self">75B</a></li><li><a data-type="spec" href="javascript:;" target="_self">75C</a></li><li><a data-type="spec" href="javascript:;" target="_self">75D</a></li><li><a data-type="spec" href="javascript:;" target="_self">80B</a></li><li><a data-type="spec" href="javascript:;" target="_self">80C</a></li>
+                  </ul>
+                </div>
+            </div>
+              <div class="goods-body-attr3">
+                <span>颜&nbsp;&nbsp;&nbsp;色</span>
+                <div class="bb">
+                  <ul class="size_num" id="size_num"><li><a data-type="spec" href="javascript:;" target="_self">白色</a></li><li><a data-type="spec" href="javascript:;" target="_self">黑色</a></li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+          <div class="goods-floor">
+              <div class="goods-floor-btn">
+              <input type="button" value="<" style="height: 40px">
+                  <input type="text" value="1" maxlength="2" id="txtqyt">
+              <input type="button" value=">" style="height: 40px">
+              
+              </div>
+              <div class="goods-floor-show">
+                <input type="submit" name="search_btn" id="btn" value="加入购物车">
+                <input type="submit" name="search_btn" id="btn" value="去付款" style="background: #fff;color:#FF5c00 ">
+              </div>
+          </div>
+      </div> -->
+            showHistory fl
+        </div>
+        <div class="goods-footer">
+            <div class="goods-footer-r">
+                <div class="goods-footer-title">
+                    <ul class="goods-footer-nav">
+                        <div class="goods-footer-fixd">
+                            <div class="goods-footer-nav-img">
+                                <img src="http://img.muyingzhijia.com/tm/fck/20150830/2015083014/6fb718f1-e06e-48b9-815d-61c0a9ae41fd.jpg" alt="">
+                            </div>
+                            <div class="goods-footer-fixd-info">
+                                <h5 title="Metersbonwe 【春推荐】男翻领左胸印字茄克（支持14天退换）">Metersbonwe 【春推荐】男翻领左胸印字茄克（支持14天退换）</h5>
+                                <p id="floatPrice"> ￥ 259 </p>
+                            </div>
+                        </div>
+                        <li>商品详情</li>
+                        <li>商品评价</li>
+                        <li>购买须知</li>
+                        <span class="goods-addToCart">选择商品信息</span>
+                    </ul>
+                </div>
+                <div class="goods-footer-box">
+                    <div class="goods-footer-boxcontent">
+                        <img src="http://img.muyingzhijia.com/tm/fck/20150830/2015083014/6fb718f1-e06e-48b9-815d-61c0a9ae41fd.jpg" alt="">
+                        <img src="http://img.muyingzhijia.com/tm/fck/20150830/2015083014/6b7fe371-a5df-46e3-a0b6-0fd43b7e75c6.jpg" alt="">
+                        <img src="http://img.muyingzhijia.com/tm/fck/20150830/2015083014/859d9ef6-ae0c-432e-992b-1571d3fea4c6.jpg" alt="">
+                        <img src="http://img.muyingzhijia.com/tm/fck/20150830/2015083014/998c4b0b-d2f9-419a-8fd3-cb8f15f2298c.jpg" alt="">
+                        <img src="http://img.muyingzhijia.com/tm/fck/20150830/2015083014/998c4b0b-d2f9-419a-8fd3-cb8f15f2298c.jpg" alt="">
+                        <img src="http://img.muyingzhijia.com/tm/fck/20150830/2015083014/998c4b0b-d2f9-419a-8fd3-cb8f15f2298c.jpg" alt="">
+                        <img src="http://img.muyingzhijia.com/tm/fck/20150830/2015083014/998c4b0b-d2f9-419a-8fd3-cb8f15f2298c.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="showHistory fl">
+                <h6>商品推荐</h6>
+                <ul>
+                    <li><img src="../img/lists/1.jpg" alt="">
+                        <a href="">婷妃孕妇内衣喂奶胸罩哺乳文胸带钢圈纯棉喂乳防下垂全棉</a>
+                    </li>
+                    <li><img src="../img/lists/2.jpg" alt="">
+                        <a href="">植彩 Colorize 植彩一片式无痕有钢圈内衣性感深V光面聚拢调整型文胸少女胸罩 古铜色</a>
+                    </li>
+                    <li><img src="../img/lists/3.jpg" alt="">
+                        <a href="">植彩 Colorize 无钢圈前扣女文胸美背夏季 性感聚拢内衣一片式光面无痕 肤色</a>
+                    </li>
+                    <li><img src="../img/lists/4.jpg" alt="">
+                        <a href="">植彩 Colorize 一片式宫廷轻奢刺绣性感聚拢无痕内衣文胸套装 咖啡色</a>
+                    </li>
+                    <li><img src="../img/lists/5.jpg" alt="">
+                        <a href="">摩登孕妈 MODENGYUNMA 哺乳文胸孕妇内衣胸罩无钢圈防下垂纯色 灰黑</a>
+                    </li>
+                    <li><img src="../img/lists/6.jpg" alt="">
+                        <a href="">十月皇后 Shiyuehuanghou 蕾丝杯面哺乳文胸 肩开扣软钢圈内衣</a>
+                    </li>
+                    <li><img src="../img/lists/7.jpg" alt="">
+                        <a href="">十月皇后 Shiyuehuanghou 哺乳文胸无钢圈前开扣聚拢防下垂孕妇内衣 5068</a>
+                    </li>
+                    <!--<li>
+            <a href="">
+              <img src=""/>
+            </a>
+            <a href="">【春推荐】男翻领左胸印字茄克（支持14天退换）</a>
+            <b>￥259.00</b>
+          </li>-->
+                </ul>
+            </div>
+        </div>
+        <!-- 底部 -->
+        <div id="footer">
+            <div class="footer_nav">
+                <div class="wrap">
+                    <div class="footer_nav_ul fl">
+                        <h3>新手指南</h3>
+                        <ul>
+                            <li><a href="http://www.supumall.com/Helper/helpShopping" target="_blank">购物流程</a> </li>
+                            <li><a href="http://www.supumall.com/Helper/helpMembersShow" target="_blank">会员介绍</a> </li>
+                            <li><a href="http://www.supumall.com/Helper/helpIntegral" target="_blank">积分制度</a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer_nav_ul fl">
+                        <div class="footer_nav_ul_t">
+                            <h3>物流配送</h3>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/help_deliveryS" target="_blank">配送服务</a>
+                            </li>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/help_deliveryA" target="_blank">验货签收
+                       </a>
+                            </li>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpSupuCourier" target="_blank">速普快递
+                       </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_nav_ul fl">
+                        <div class="footer_nav_ul_t">
+                            <h3>支付方式</h3>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpPayDelivery" target="_blank">货到付款
+                       </a>
+                            </li>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpOnlinePay" target="_blank">在线支付
+                       </a>
+                            </li>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpCashPay" target="_blank">现金账户
+                       </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_nav_ul fl">
+                        <div class="footer_nav_ul_t">
+                            <h3>售后服务</h3>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpServiceC" target="_blank">赔偿承诺
+                       </a>
+                            </li>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpInvoice" target="_blank">发票制度
+                       </a>
+                            </li>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpReturnPolicy" target="_blank">退货政策
+                       </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_nav_ul fl">
+                        <div class="footer_nav_ul_t">
+                            <h3>常见问题</h3>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpQuestionBuy" target="_blank">购物问题
+                       </a>
+                            </li>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpQuestionSafe" target="_blank">账户安全
+                       </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_nav_ul fl">
+                        <div class="footer_nav_ul_t">
+                            <h3>联系我们</h3>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpContactUs" target="_blank">联系客服
+                       </a>
+                            </li>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpContactUs" target="_blank">意见反馈
+                       </a>
+                            </li>
+                            <li>
+                                <a href="http://weibo.com/supuy" target="_blank">新浪微博
+                       </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_nav_ul fl" style="border: none;">
+                        <img src="http://static.boodoll.cn/mall/v16/images/index/weixin_code.jpg?_=6" alt="微信二维码">
+                    </div>
+                </div>
+            </div>
+            <div class="footer_info">
+                <div class="wrap">
+                    <div class="supuy_info">
+                        <ul>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpAboutUs" target="_blank">关于我们</a>
+                            </li>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpJoinUs" target="_blank">人才招聘</a>
+                            </li>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpContactUs" target="_blank">联系我们</a>
+                            </li>
+                            <li>
+                                <a href="http://www.supumall.com/Helper/helpInvestmentIn" target="_blank" style="border:none;">招商合作</a>
+                            </li>
+                            <li>
+                                <a href="http://www.ysys520.com" target="_blank" style="border:none;">一生一世</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="supuy_set">
+                        Copyright ? 速普商城 2010-2016 All Right Reseved 鲁 ICP 证 09059644 号
+                    </div>
+                    <div class="zizhi">
+                        <span style="display:inline-block;position:relative;width:auto;"><a href="https://ss.knet.cn/verifyseal.dll?sn=e14041537020048086xzmw000000&amp;ct=df&amp;a=1&amp;pa=0.6623187007733611" id="kx_verify" tabindex="-1" target="_blank" kx_type="图标式" style="display:inline-block;">
+             <img src="http://rr.knet.cn/static/images/logo/cnnic.png" style="border:none;" oncontextmenu="return false;" alt="可信网站"></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //吸顶 -->
+        <div class="top">
+            <div class="xi">
+                <img src="../img/母婴之家-让宝宝过得更好_files/logo29new.png" alt="">
+            </div>
+            <ul class="top-list">
+                <li class="act"><a href="">首页</a></li>
+                <li><a href="">幸运星期一</a></li>
+                <li class="bar-list"><a href="">直邮专区</a>
+                </li>
+                <li><a href="">品牌专栏</a></li>
+                <li><a href="">会员俱乐部</a></li>
+            </ul>
+            <div class="top-shou">
+                <input type="text" name="keywords" id="keywords" value class="fl" autocomplete="off" placeholder="搜索 母婴之家 商品/品牌">
+                <input type="submit" name="search_btn" id="search_btn" value="搜索">
+            </div>
+        </div>
+        <!-- //you -->
+        <div class="right">
+            <div class="icon1">
+                <i></i>
+                <a href="http://localhost/myproject/src/html/reg.html">注册</a>
+                <a href="http://localhost/myproject/src/html/login.html">登录</a>
+            </div>
+            <div class="icon2">
+                <i></i>
+                <a href="http://localhost/myproject/src/html/gwc.html">购物车</a> (
+                <input type="text" value="0" class="gwc">)
+            </div>
+            <div class="icon3">
+                <i></i>
+                <a href="">客服服务</a>
+            </div>
+            <div class="icon4">
+                <i></i>
+                <span>返回顶部</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

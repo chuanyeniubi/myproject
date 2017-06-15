@@ -1,0 +1,382 @@
+
+.search {
+	width: 1200px;
+	float: none;
+	margin: 0 auto;
+	height: 27px;
+	position: relative;
+	clear: both;
+}
+.search span {
+	width: 398px;
+	height: 30px;
+	padding: 0;
+	right: 0;
+	display: block;
+	background-image: url("../img/spirit.png");
+	position: absolute;
+	z-index: 1;
+	background-position: 0 -1578px;
+}
+
+.search-warp {
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px #ccc solid;
+	background-color: #f8f7f7;
+	float: left;
+	position: relative;
+	top: 0px;
+	padding-top: 2px;
+}
+
+.catTab {
+	float: none;
+	width: 1200px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.tab-title {
+	height: 42px;
+	line-height: 42px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #000;
+}
+
+.cart_get {
+	float: right;
+	margin-top: 16px;
+	font-size: 14px;
+	text-decoration: underline;
+	color:#ff5c00;
+}
+
+.cattop-warp {
+	width: 100%;
+	height: auto;
+}
+
+.cattop {
+	width: 1200px;
+	height: auto;
+	overflow: hidden;
+	background: #f8f7f7;
+	margin: 20px auto 0;
+}
+
+.cattop li {
+	float: left;
+	line-height: 40px;
+	text-align: left;
+}
+
+
+.mbshop_checkbox,
+.mbshop_radio {
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	padding-left: 18px;
+	width: auto;
+	height: 100%;
+}
+
+.mbshop_checkbox input,
+.mbshop_radio input {}
+
+.cattop li:nth-of-type(1) {
+	width: 250px;
+}
+
+.cattop li:nth-of-type(2) {
+	width: 250px;
+}
+
+.cattop li:nth-of-type(3) {
+	width: 208px;
+}
+
+.cattop li:nth-of-type(4) {
+	width: 210px;
+}
+
+.cattop li:nth-of-type(5) {
+	width: 177px;
+}
+
+.cattop li:nth-of-type(6) {
+	/*width: 155px;*/
+}
+
+.cattop li:nth-of-type(7) {
+	width: 74px;
+}
+
+.goods-box {
+	border: 1px solid #ccc;
+	margin: 0 auto;
+	width: 1200px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	height: auto;
+}
+
+
+.goodslist {
+	width: 1198px;
+	height: auto;
+	margin: 0 auto;
+	/*border: 1px solid #ccc;*/
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #eaeaea;
+}
+
+/*购物车内容*/
+
+.catGoods{
+
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	overflow: hidden;
+	.catlist{
+		height: 120px;
+		/*background:black;*/
+		span{
+			display: block;
+			float: left;
+			/*background: red;*/
+			height: 120px;
+		}
+		.s1{
+			line-height: 120px;
+			padding-left: 18px;
+		}
+		.s2{
+			margin-left: 40px;
+			width: 400px;
+			/*background:yellow;*/
+			overflow: hidden;
+
+			>div{
+				/*float: left;*/
+			}
+			.catImg{
+				margin-top: 10px;
+				float: left;
+				width: 100px;
+				height: 100px;
+				border:1px solid  #ccc;
+				>img{
+					width: 100px;
+				}
+			}
+			.cattite{
+				float: left;
+				width: 250px;
+				height: 60px;
+				margin-top: 30px;
+				margin-left: 10px;
+				/*background: red;*/
+
+			}
+		}
+		.s3{
+			width: 200px;
+			height: 60px;
+			/*background: #ccc;*/
+			margin-top: 30px;
+			>p{
+				line-height:60px;
+			}
+		}
+		.s4{
+			width: 100px;
+			height: 60px;
+			margin-top: 30px;
+			margin-left: 10px;
+			background: #fff;
+			>p{
+				color: red;
+				font-weight: bold;
+				font-size: 20px;
+				line-height: 60px;
+				text-align: center;
+				&::before{
+					content:"￥";
+							}
+			}
+		}
+		.s5{
+			width: 100px;
+			height: 30px;
+			margin-top: 50px;
+			margin-left: 120px;
+			/*background: #ccc;*/
+			text-align: center;
+			overflow: hidden;
+
+			>input{
+				width: 20px;
+				height: 18px;
+				text-align: center;
+				float: left;
+				outline: none;
+
+			}
+			>i{
+				float: left;
+				display: block;
+				margin: 0;
+				width: 20px;
+				height: 20px;
+				border: 1px solid #ff5c00;
+				font-style:normal
+			}
+		}
+		.s6{
+			width: 100px;
+			height: 60px;
+			margin-top: 30px;
+			margin-left: 60px;
+			/*background: #fff;*/
+			text-align: center;
+			line-height: 60px;
+			.btn-close{
+				color: black;
+				&:hover{
+					color: #ff5c00;
+
+				};
+			}
+		}
+
+
+	}
+}
+
+
+.goodsbalance-warp{
+    width: 1200px;
+    height: 61px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.goodsbalance{
+    width: 1200px;
+    height: 60px;
+    /*position: fixed;*/
+    margin: 0 auto;
+    bottom: 0;
+    z-index: 99;
+    background: #f7f7f7;
+}
+.goodsbalance-left{
+    width: 1048px;
+    height: 60px;
+    line-height: 60px;
+    /*text-align: center;*/
+    font-size: 14px;
+    float: left;
+}
+.balance_left_del{
+    font-weight: 400;
+	float: left;
+    margin-left: 10px;
+    cursor: pointer;
+    &:hover{
+    	color:#ff5c00;
+    };
+}
+
+.balance_left_total{
+
+    margin-right: 20px;
+    float: right;
+    line-height: 56px;
+
+}
+.balance_left_total i{
+    font-style: normal;
+    font-size: 20px;
+    color: #f8584f;
+
+}
+.balance_left_alg{
+    margin-right: 20px;
+    float: right;
+    font-weight: 400;
+	>a{
+		color: #ff5c00
+	}
+}
+.balance_left_alg em{
+font-style: normal;}
+.balance_left_have{
+float: right;
+    margin-right: 20px;
+    font-weight: 400;
+
+
+}
+.balance_left_have em{
+    color: #f8584f;
+    font-size: 18px;
+    margin: 0 5px;
+	font-style: normal;
+}
+.go_to_balance_right{
+float: right;
+    width: 12%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 26px;
+    color: #fff;
+    background: #ccc;
+    font-family: "微软雅黑";
+    background: #ff5c00;
+
+
+
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

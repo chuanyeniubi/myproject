@@ -1,0 +1,91 @@
+@charset "UTF-8";
+body {
+  background-color: #fff;
+}
+
+/*.u-flyer{display: block;width: 50px;height: 50px;border-radius: 50px;position: fixed;z-index: 9999;}*/
+.thumbnail {
+  margin: 20px;
+  height: 450px;
+}
+
+.bian {
+  border: 1px solid red;
+}
+
+.caption {
+  position: relative;
+}
+
+.caption h3 {
+  font-size: 16px;
+  display: block;
+  width: 300px;
+  height: 50px;
+}
+
+.caption .price {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.caption .price::before {
+  content: "￥";
+}
+
+.caption .price::after {
+  content: '.00';
+}
+
+.caption .dis {
+  display: block;
+  position: absolute;
+  right: 30px;
+  bottom: 37px;
+}
+
+.ban {
+  width: 100%;
+  overflow: hidden;
+}
+
+.pagination {
+  margin-left: 30%;
+}
+
+#footer {
+  background: #fff;
+  color: #ddd;
+  padding: 0px 0px 30px 0px;
+  text-align: center;
+}
+
+#footer .footer {
+  background: #333;
+  height: 38px;
+  line-height: 38px;
+  width: 100%;
+}
+
+#footer .footer > a {
+  color: #f5f5f5;
+}
+
+#footer .botton-tu > img {
+  margin-left: 50%;
+}
+
+#btn {
+  position: fixed;
+  right: 0;
+  top: 100px;
+  background-color: #FF5c00;
+  font-size: 16px;
+  color: #FFF;
+  border: 0;
+  height: 40px;
+  width: 80px;
+  line-height: 32px;
+  cursor: pointer;
+}
