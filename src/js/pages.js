@@ -53,14 +53,14 @@ require(['config'], function() {
             <div class="goods-body-attr2">
                 <span>规&nbsp;&nbsp;&nbsp;格</span>
                 <div class="bb">
-                  <ul class="size_num" id="size_num"><li><a data-type="spec" href="javascript:;" target="_self">75B</a></li><li><a data-type="spec" href="javascript:;" target="_self">75C</a></li><li><a data-type="spec" href="javascript:;" target="_self">75D</a></li><li><a data-type="spec" href="javascript:;" target="_self">80B</a></li><li><a data-type="spec" href="javascript:;" target="_self">80C</a></li>
+                  <ul class="size_num" id="size_num"><li class="active"><a data-type="spec" href="javascript:;" target="_self">75B</a></li><li><a data-type="spec" href="javascript:;" target="_self">75C</a></li><li><a data-type="spec" href="javascript:;" target="_self">75D</a></li><li><a data-type="spec" href="javascript:;" target="_self">80B</a></li><li><a data-type="spec" href="javascript:;" target="_self">80C</a></li>
                   </ul>
                 </div>
             </div>
               <div class="goods-body-attr3">
                 <span>颜&nbsp;&nbsp;&nbsp;色</span>
                 <div class="bb">
-                  <ul class="size_num" id="size_num"><li><a data-type="spec" href="javascript:;" target="_self">白色</a></li><li><a data-type="spec" href="javascript:;" target="_self">黑色</a></li>
+                  <ul class="size_num"><li><a data-type="spec" href="javascript:;" target="_self">白色</a></li><li><a data-type="spec" href="javascript:;" target="_self">黑色</a></li>
                   </ul>
                 </div>
             </div>
@@ -165,6 +165,10 @@ require(['config'], function() {
                 //     });
                 // });
 
+                $('#size_num').on('click','li',function(){
+                    console.log(this)
+                    $(this).addClass('active').siblings().removeClass('active');
+                })
 
             }
 

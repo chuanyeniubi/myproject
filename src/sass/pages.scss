@@ -132,6 +132,16 @@ body{
 						}
 					.bb{
 						float: left;
+						 #size_num{
+						 	li.active{
+
+							 		/*border: 1px solid #FF5c00;*/
+							 		 background-color: #FF5c00;
+						 		>a{
+						 			color:#fff;
+						 		}
+						 	}
+						 }
 						.size_num{
 							li{
 								    margin-right: 4px;
@@ -141,13 +151,13 @@ body{
 								    cursor: pointer;
 								    color: #fff;
 								    background-color: #fff;
-								float: left;
-								a{
-
-									color: #333;
+									float: left;
 								    border: 1px solid #ccc;
 								    display: block;
 								    padding: 3px 12px;
+								a{
+									color: #333;
+
 								}
 								
 							}
